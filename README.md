@@ -14,17 +14,17 @@ npm install
 npm start
 ```
 
-### As a plain component
+### As a plain component into your existing application
 
 ```
-// In package.json, add the code inside dependencies
+// Install
 
-"box-module-reactjs": "git+ssh://git@github.com:c0debreaker/box-module-reactjs.git"
+npm install --save git+ssh://git@github.com:c0debreaker/box-module-reactjs.git
 
 
 // In your jsx where you want to use the component
 
-import BoxSection from 'box-module-reactjs/app/box.jsx';
+import BoxSection from 'box-module/app/box.jsx';
 
 ReactDOM.render(
   <BoxSection/>
@@ -33,12 +33,13 @@ ReactDOM.render(
 
 ```
 
+
 ### Overriding the box component
 
 ```
-// In package.json, add the code inside dependencies
+// Install
 
-"box-module-reactjs": "git+ssh://git@github.com:c0debreaker/box-module-reactjs.git"
+npm install --save git+ssh://git@github.com:c0debreaker/box-module-reactjs.git
 
 
 // In your jsx where you want to use the component
