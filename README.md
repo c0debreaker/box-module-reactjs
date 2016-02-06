@@ -43,7 +43,7 @@ ReactDOM.render(
 
 // In your jsx where you want to use the component
 
-import BoxSection from 'box-module-reactjs/app/box.jsx';
+import BoxSection from 'box-module/app/box.jsx';
 
 let boxProperties = {
   boxStyles : {
