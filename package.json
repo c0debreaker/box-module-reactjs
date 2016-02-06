@@ -1,6 +1,6 @@
 {
   "name": "box-module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Box Component written in ReactJS ",
   "main": "app/box.jsx",
   "scripts": {
@@ -48,6 +48,6 @@
     "material-ui": "^0.14.4",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
-    "react-tap-event-plugin": "^0.2.1",
+    "react-tap-event-plugin": "^0.2.1"
   }
 }
