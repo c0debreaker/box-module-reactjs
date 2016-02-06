@@ -3,17 +3,18 @@ import React from 'react';
 let BoxComponent = (props) => {
 
 const style = {
-  backgroundColor: '#673AB7',
-  color: 'lightblue',
+  backgroundColor: '#40b4e5',
+  color: 'white',
   padding: 15,
   borderStyle: 'solid',
   borderWidth: 2,
-  borderColor: 'blue',
+  borderColor: '#85CEEC',
   width: 200,
+  textAlign: 'center',
   ...props.style
 }
 
-let PrimaryText = 'Default button name';
+let PrimaryText = 'Default Section Name';
 PrimaryText = (props.PrimaryText) ? props.PrimaryText : PrimaryText;
 
 return (

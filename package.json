@@ -1,15 +1,15 @@
 {
-  "name": "third-party-component-1",
-  "version": "1.0.3",
-  "description": "Third Party ReactJS Component ",
-  "main": "app/leftnavigation.jsx",
+  "name": "box-module",
+  "version": "1.0.0",
+  "description": "A Box Component written in ReactJS ",
+  "main": "app/box.jsx",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "NODE_ENV=production webpack -p"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/c0debreaker/react-component-1.git"
+    "url": "git+ssh://git@github.com:c0debreaker/box-module-reactjs.git"
   },
   "keywords": [
     "reactjs",
@@ -18,6 +18,10 @@
   ],
   "author": "Neil Camara",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0debreaker/box-module-reactjs/issues"
+  },
+  "homepage": "https://github.com/c0debreaker/box-module-reactjs#readme",
   "devDependencies": {
     "babel-core": "^6.3.21",
     "babel-loader": "^6.2.0",
